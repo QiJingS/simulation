@@ -4,7 +4,7 @@
 #figure(susie_get_posterior_mean(res1), w, "Susie",susie_get_posterior_sd(res1))
 #figure(coef(ridge.model)[-1], w, "Ridge",0)
 #figure(coef(lasso.model)[-1], w, "Lasso",0)
-
+#sjsjs
 
 approach_class = R6::R6Class("approaches_class",
                                   public = list(
